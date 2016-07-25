@@ -10,12 +10,10 @@ __nodemailer 란?__
   - [링크](https://github.com/nodemailer/nodemailer-wellknown#supported-services) 에서 확인할 수 있다.
 - nodemailer 0.7 버전과 1.x 버전 이상의 사용방법은 다르다.
   - 이 예제에서는 2.5 버전을 사용한다.
-
 ## 모듈 설치
 ```sh
 $ npm install --save nodemailer nodemailer-smtp-pool
 ```
-
 ## 구현하기
 __config 파일 (config/config.json) 작성__
 ```json
@@ -29,7 +27,6 @@ __config 파일 (config/config.json) 작성__
   }
 }
 ```
-
 __./mailer.js 작성__
 __코드 설명__
 - smtpPool 는 smtp 서버를 사용하기 위한 모듈이다.
@@ -42,8 +39,6 @@ __코드 설명__
 - sendMail 메소드를 통해 메일을 실제로 발송할 수 있으며,
   - 첫 번째 인자는 mailOptions,
   - 두 번째 인자는 에러와 결과를 인자로 받는 콜백 함수이다.
-
-
 ```js
 var nodemailer = require('nodemailer');
 var smtpPool = require('nodemailer-smtp-pool');
@@ -85,14 +80,11 @@ transporter.sendMail(mailOptions, function (err, res) {
   transporter.close();
 });
 ```
-
-
 __메일 전송하기__
 - 커맨드라인에서 다음 명령어를 입력하면, 메일을 전송한다.
 ```sh
 $ node mailer
 ```
-
 __메일이 전송되지 않는 경우__
 ```sh
 failed... => Error: Invalid login: 534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbsJ

@@ -9,7 +9,6 @@ tags:
   - 하지만, 한글이 제대로 출력되지 않는 현상이 있어서, 다른 모듈을 사용하려고 이런 저런 모듈(Wkhtmltopdf, pdfmake(npm), Phantom JS 등..)을 찾아보다가, 난이도 떄문에.. 그냥 Client-side 에서 PDF 를 생성하기로     했다. 
     - **PDFKit 을 사용할 떄는,** Server-side 에서 PDF 생성 관련 URL 을 호출 시, response 로 blob 데이터를 전달해줬지만, 
     - **pdfmake 를 사용할 떄는,** Server-side 에서 PDF 생성에 필요한 text 를 JSON 으로 전달해주는 식으로 PDF 를 동적 생성했다. 
-
 ## pdfmake 사용하기
 - 먼저 bower 를 통해 pdfmake 를 설치한다. 
   - bower 가 설치되어있다고 가정한다. 
@@ -44,7 +43,6 @@ bower_components/pdfmake/
 ```
 - vfs_fonts 보다 pdfmake 를 먼저 불러와야 한다. 
 - 이 예제에서 jQuery 를 사용할 것이기 때문에, jQuery 도 슬며시..
-
 ## Grunt Task 수행하기
 - vfs_fonts.js 를 생성하기 위해, 
   - Grunt, grunt-cli 를 설치하고, 
@@ -81,7 +79,6 @@ module.exports = function (grunt) {
 $ grunt dump_dir
 ```
 - 위 결과, resources/fonts 경로에 있는 파일들이 포함된 vfs_fonts.js 가 dist/plugins/js/vfs_fonts.js 경로에 생성된다.
-
 ## Java Script 코드 작성하기
 ```js
 $.ajax({
