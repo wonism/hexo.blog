@@ -43,6 +43,13 @@ highlight:
   auto_detect: false
   tab_replace:
 
+# Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+
 # Category & Tag
 default_category: uncategorized
 category_map:

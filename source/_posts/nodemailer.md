@@ -1,7 +1,7 @@
 ---
 title: nodemailer 로 메일 보내기
 date: 2016-07-24 22:21:48
-tags:
+tags: [nodejs, expressjs, nodemailer]
 ---
 
 __nodemailer 란?__

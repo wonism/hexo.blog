@@ -1,7 +1,7 @@
 ---
-title: letsencrypt
+title: Let's Encrypt 로 HTTPS 사용하기
 date: 2016-07-26 01:38:49
-tags:
+tags: [nginx, express, nodejs, https, crontab, letsencrypt]
 ---
 # Let's Encrypt 로 HTTPS 사용하기
 - 문제가 있거나 오타, 다른 의견이 있으면, [issue](https://github.com/wonism/back-end-study/issues/new) 에 등록해주시면 확인하도록 하겠습니다.

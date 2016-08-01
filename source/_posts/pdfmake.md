@@ -1,7 +1,7 @@
 ---
 title: pdfmake 로 PDF 파일 생성하기
 date: 2016-07-20 20:40:19
-tags:
+tags: [Java Script, js, pdfmake, pdf]
 ---
 ## pdfmake 로 PDF 파일 생성하기
 - 사용한 Library 는 [pdfmake](http://pdfmake.org/#/) 이다. 
