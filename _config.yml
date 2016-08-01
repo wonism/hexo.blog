@@ -7,7 +7,7 @@ title: "WONISM"
 subtitle:
 description: "wonism's blog"
 author: wonism
-language: ko
+language: en
 timezone: ROK
 
 # URL
@@ -43,6 +43,57 @@ highlight:
   auto_detect: false
   tab_replace:
 
+menu:
+    Home: /hexo-theme-hueman/
+    # Delete this row if you don't want categories in your header nav bar
+    # Categories:
+    About: https://about.me/jaewonism
+    GitHub: https://github.com/wonism
+
+customize:
+  logo:
+    width: 140
+    height: 60
+    url: https://jaewonism.cf/images/new_logo_white.png
+  theme_color: '#3b8dbd'
+  highlight: darkula
+  sidebar: left
+  thumbnail: false # enable posts thumbnail, options: true, false
+  favicon: https://jaewonism.cf/favicon.ico # path to favicon
+  social_links: # for more icons, please see http://fontawesome.io/icons/#brand
+    facebook: https://www.facebook.com/j1.chic
+    instagram: https://www.instagram.com/1000000000000._.won/
+    github: https://github.com/ppoffice/hexo-theme-hueman
+    rss: https://wonism.github.io/atom.xml
+
+# Widgets
+widgets:
+  - recent_posts
+  - archive
+  - tag
+  - tagcloud
+
+# Disqus
+comment:
+  disqus: jaewonism
+  duoshuo:
+  youyan:
+
+# Search
+search:
+  insight: true # you need to install `hexo-generator-json-content` before using Insight Search
+  swiftype: # enter swiftype install key here
+  baidu: false # you need to disable other search engines to use Baidu search, options: true, false
+
+# Plugins
+plugins:
+  fancybox: true # options: true, false
+  scrollLoading: false # options: true, false
+  google_analytics: UA-80620216-1 # enter the tracking ID for your Google Analytics
+
+# Share
+default: default
+
 # Feed
 feed:
   type: atom
@@ -70,7 +121,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: bootstrap-blog
+theme: hueman
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
