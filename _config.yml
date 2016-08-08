@@ -44,7 +44,7 @@ highlight:
   tab_replace:
 
 menu:
-    Home: /hexo-theme-hueman/
+    Home: /
     # Delete this row if you don't want categories in your header nav bar
     # Categories:
     About: https://about.me/jaewonism
@@ -63,7 +63,7 @@ customize:
   social_links: # for more icons, please see http://fontawesome.io/icons/#brand
     facebook: https://www.facebook.com/j1.chic
     instagram: https://www.instagram.com/1000000000000._.won/
-    github: https://github.com/ppoffice/hexo-theme-hueman
+    github: https://github.com/wonism
     rss: https://wonism.github.io/atom.xml
 
 # Widgets
