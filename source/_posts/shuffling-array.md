@@ -1,7 +1,7 @@
 ---
 title: Fisher Yates Shuffle 을 통한 Array 순서 섞기
 date: 2016-08-01 21:56:15
-tags: [Java Script, js, array, shuffling, random, fisher yates shuffle]
+tags: [Java Script, js, array, shuffling, random, fisher yates shuffle, 배열 섞기]
 ---
 ## Array 순서 섞기와 순서 정렬하기
 
