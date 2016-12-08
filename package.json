@@ -2,6 +2,10 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "deploy": "hexo g && hexo deploy",
+    "commit": "git add . && git commit -am \"add post\""
+  },
   "hexo": {
     "version": "3.2.2"
   },

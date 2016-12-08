@@ -4,7 +4,7 @@ date: 2016-12-08 21:59:58
 tags: Java Script, js, Object, Prototype
 ---
 
-<p align="center"><img src="https://github.com/wonism/TIL/blob/master/front-end/javascript/js-the-good-parts.jpg" width="160" height="209" align="center" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/wonism/TIL/master/front-end/javascript/js-the-good-parts.jpg" width="160" height="209" align="center" /></p>
 
 - "자바스크립트 핵심 가이드, 더글라스 크락포드 저 (김명신 역) (O'Reilly / 한빛 미디어). Copyright 2008 HANBIT Media, Inc., 9788979145984." 의 일부와 MDN 를 참고하며 정리한 내용입니다.
 
